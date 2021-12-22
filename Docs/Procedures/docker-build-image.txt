@@ -1,0 +1,25 @@
+# create a docker file
+
+# docker build image
+    sudo docker build -t phpcode -f dockerfilepath
+    sudo docker build -t phpcode .
+
+# verify build images
+    sudo docker images
+
+# start / run container from custom docker image
+    sudo docker run --name phpserver -p 80:80 -d phpcode
+
+
+--------------------------------------------------------------------------------
+# docker image build for spring boot project
+--------------------------------------------------------------------------------
+# create a docker file
+
+# build maven package
+
+# docker build image
+    sudo docker build -t ecom-webservice .
+
+# start / run container from custom docker image
+    sudo docker run --name ecom-server -p 8081:8080 -d ecom-webservice

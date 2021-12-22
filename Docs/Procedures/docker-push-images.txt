@@ -1,0 +1,19 @@
+# create a docker image
+
+# create a docker image tag(release)
+    sudo docker tag phpcode:latest shermanxiao7/phpcode:v1.0.0
+
+# log into docker hub
+    sudo docker login
+
+# push tag to docker hub
+    
+    
+---------------------------------------------
+Push springboot image
+---------------------------------------------
+
+# create a docker image
+
+# create a docker image tag
+    sudo docker tag ecom-webservice:latest shermanxiao7/ecom-webservice:v1.0.0

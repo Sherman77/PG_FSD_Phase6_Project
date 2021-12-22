@@ -1,0 +1,18 @@
+# run / create container
+    sudo docker run --name webserver -p 80:80 -it ubuntu /bin/bash
+
+# start container
+    sudo docker container start <containerName> / <containerId>
+
+
+# stop container
+    sudo docker container stop <containerName> / <containerId>
+
+# restart container
+    sudo docker container restart <containerName> / <containerId>
+
+# delete container(stop container first)
+    sudo docker container rm <containerName> / <containerId>
+
+# delete container forcefully(delete a running container)
+    sudo docker container rm -f <containerName> / <containerId>
